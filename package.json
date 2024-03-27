@@ -6,9 +6,6 @@
   },
   "engines-annotation": "Mostly required by sharp which needs a Node-API v9 compatible runtime",
   "private": true,
-  "trustedDependencies": [
-    "sharp"
-  ],
   "trustedDependencies-annotation": "Needed for bun to allow running install scripts",
   "type": "module",
   "scripts": {
@@ -44,6 +41,6 @@
     "vite-tsconfig-paths": "^4.2.1"
   },
   "dependencies": {
-    "sharp": "0.32.6"
+    "sharp": "0.32.4"
   }
 }
